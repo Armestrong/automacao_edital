@@ -53,8 +53,6 @@ Um novo edital foi publicado!
 Entre em https://fundacaobutantan.org.br/licitacoes/ato-convocatorio para conferir.
 Att.
 """
-    # "caio.cardim@integradora.com.br"
-    # "henrique.pereira@integradora.com.br"
     emails = os.environ.get('emails').split(',')
     password = os.getenv('senha')
     msg['From'] = os.getenv('email')
